@@ -1,0 +1,33 @@
+{
+  "name": "readme-wizard",
+  "version": "1.0.0",
+  "description": "A CLI workflow tool that generates beautiful, comprehensive README files for any project by scanning your codebase — reads package.json, detects frameworks, finds entry points, counts files, and assembles a structured README with badges, installation steps, usage examples, API reference, and contributing guidelines. Built with AI by Craftpipe",
+  "main": "index.js",
+  "type": "commonjs",
+  "bin": {
+    "readme-wizard": "index.js"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage"
+  },
+  "keywords": [
+    "readme",
+    "generator",
+    "cli",
+    "documentation",
+    "markdown"
+  ],
+  "author": "Craftpipe <support@heijnesdigital.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.0.0"
+  },
+  "devDependencies": {
+    "vitest": "*",
+    "@vitest/coverage-v8": "*"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
